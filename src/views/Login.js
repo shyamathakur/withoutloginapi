@@ -174,7 +174,7 @@ const Login = () => {
               //     Remember Me
               //   </FormLabel>
               // </div> */}
-              <Button tag={Link} to="/" id="login-btn" type="submit"
+              <Button tag={Link} to="/home" id="login-btn" type="submit"
                 color="primary" >
                 Sign in
               </Button>
@@ -210,3 +210,8 @@ const Login = () => {
 }
 
 export default Login;
+
+
+// {
+//   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+// }
